@@ -42,11 +42,3 @@ class PruebaTest(unittest.TestCase):
         resultado = ejercicio2.batallaDeBotes(n, posicionesDeDisparosDePrueba)
         self.assertEqual(resultado, [(1,1),(3,3)])
 
-"""assert (batallaDeBotes([],posicionesDeDisparosDePrueba) == [])
-assert (batallaDeBotes([""],posicionesDeDisparosDePrueba) == [])
-assert (batallaDeBotes(["      "],posicionesDeDisparosDePrueba) == [])
-assert (batallaDeBotes(["soy NO valido"],posicionesDeDisparosDePrueba) == [])
-assert (batallaDeBotes(["yo","tambien","soy","invalido"],posicionesDeDisparosDePrueba) == [])
-assert (batallaDeBotes(["b.b.","....","..bb","b.b"],posicionesDeDisparosDePrueba) == [])
-assert (batallaDeBotes(["b.b..","b...b",".....","....b"],posicionesDeDisparosDePrueba) == [(2,1),(2,5)])
-assert (batallaDeBotes(["b..","...","..b"],[]) == [(1,1),(3,3)])"""
