@@ -1,10 +1,13 @@
 import ejercicio1
 import unittest
-class PruebaTest(unittest.TestCase):
+
+class Ejercicio1Test(unittest.TestCase):
+
     def testVacioDevuelveListaVacia(self):
         n = ""
         resultado=ejercicio1.rotaPalabra(n)
         self.assertEqual(resultado,[])
+
     def testIngresaCadenaDeCaracteresCompuestaPorEspacios(self):
         n="     "
         resultado = ejercicio1.rotaPalabra(n)
